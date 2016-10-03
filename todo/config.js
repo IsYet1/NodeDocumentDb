@@ -1,8 +1,8 @@
 var config = {}
 
-config.host = process.env.HOST || "[the URI value from the DocumentDB Keys blade on http://portal.azure.com]";
-config.authKey = process.env.AUTH_KEY || "[the PRIMARY KEY value from the DocumentDB Keys blade on http://portal.azure.com]";
-config.databaseId = "ToDoList";
-config.collectionId = "Items";
+config.host = process.env.HOST || "https://isyet.documents.azure.com:443/";
+config.authKey = process.env.AUTH_KEY || "bV1ExLh7Pmah4VO5AvlkadtN50nirOeTBoWGgzes4GTQ44ce8Yq0X3NFcOJcJagg6A4qXAhPlV7uReWTwVabFA==";
+config.databaseId = "DocDb00";
+config.collectionId = "Coll00";
 
 module.exports = config;
